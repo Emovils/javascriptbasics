@@ -1,0 +1,11 @@
+console.log("Hello world")
+
+console.log(2 + 2)
+let num = 2 + 2
+console.log(num)
+
+num = 7
+
+let user = 'Adesina'
+console.log(user)
+
