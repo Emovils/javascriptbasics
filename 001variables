@@ -1,11 +1,16 @@
-console.log("Hello world")
+console.log("Hello world");
 
-console.log(2 + 2)
+console.log(2 + 2);
 let num = 2 + 2
-console.log(num)
+console.log(num) ;
 
 num = 7
+console.log(num + 4);
 
-let user = 'Adesina'
-console.log(user)
+let username = 'Adesina'
+console.log(username);
+
+username = "ovili's account"
+console.log(username);
+
 
