@@ -1,0 +1,41 @@
+let num = 10
+console.log(num, typeof num);
+
+
+let zip
+console.log (zip, typeof zip);
+zip = 109
+console.log (zip, typeof zip);
+
+
+zip = zip + ""
+console.log (zip, typeof zip);
+
+
+zip = zip - 2
+console.log (zip, typeof zip);
+
+
+zip = !zip
+console.log (zip, typeof zip);
+
+
+
+
+console.log(Boolean(10));
+console.log(Boolean(null));
+
+
+let  fig = parseInt("123 Emovils")
+console.log(fig);
+
+
+let bool = +true
+console.log(bool);
+
+
+console.log(parseFloat(20.5));
+
+
+if ("0") console.log("truthy");
+
