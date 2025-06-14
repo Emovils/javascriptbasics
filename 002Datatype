@@ -1,0 +1,43 @@
+let Name = 'ovili'    
+Name = 'Ovili'
+console.log(typeof Name);
+
+
+let Age = 24  
+console.log(Age);
+
+
+let Num1 = 285
+Num1 = 0xf
+console.log(Num1 * 3)
+Num1 = 5/0
+console.log(Num1)
+console.log(typeof Num1)
+
+
+let bool = 9 < 19
+console.log(bool);
+console.log(typeof bool);
+
+
+let user
+console.log(typeof user);
+ 
+
+
+ let noun = ['animal', 'place','things','name']
+ console.log( noun, typeof noun);
+
+
+ let identity =['Ovili', 'Tim', 29,"Emi", 25, 'energy',];
+ console.log (Array.isArray (identity));
+
+
+ let firstname = 'Ovili'
+ let lastname = 'Ekene'
+ let profile = firstname +" " + lastname
+ console.log(profile);
+
+
+ let myname = 'Ovili \nEkene'
+ console.log(myname);
