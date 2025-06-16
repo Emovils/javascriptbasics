@@ -1,0 +1,17 @@
+let x = 7, y = 3, z = 6
+ let output = x > y 
+ 
+console.log(output);
+
+ a = 4, b = 5, c = 8
+ let sam = a > 4 &&  c < a
+sam1 = a < c || b > a 
+ let n = !sam
+console.log(sam , n);
+console.log(sam1);
+
+
+
+ // AND &
+ // OR |
+ // NOT !
