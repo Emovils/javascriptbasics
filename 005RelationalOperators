@@ -1,0 +1,17 @@
+console.log(5 > 7);
+console.log(6 <= 6);
+
+let x = 'bag'
+let y = 'umbrella'
+let data = x > y 
+console.log(data);
+
+let z = 'rat'
+let v = 'fox'
+let ani = z > v 
+console.log(ani);
+
+let p = "5"
+let m = 5 
+let ty = p === m
+console.log(ty);
