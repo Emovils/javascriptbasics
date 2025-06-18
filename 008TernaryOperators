@@ -1,0 +1,21 @@
+let num = 15
+let result
+//if(num%2===0)
+// reault - Even 
+// else
+// result odd
+
+// ?:  is a ternary operator and even and off can be applied based on a condition instead of if statement 
+
+result = num%2===0 ? "Even" : "odd"
+console.log(result);
+
+let  E = 10
+let Answer
+Answer = E%2===0 ? "Even" : "odd"
+console.log(Answer);
+
+    
+
+
+
