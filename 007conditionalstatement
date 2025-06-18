@@ -1,0 +1,40 @@
+let num1 = 10
+let num2 = 6
+let result = num1 > num2;
+
+ if (result)
+      console.log("num1 is greater");
+console.log ("bye.....")
+// The if block only prints staement if its within the condition
+
+
+A = 2
+B = 6
+  if (A > B ){
+    console.log("conditional statement");
+  }
+else
+    console.log("B is greater");
+    console.log("Not Approved");
+
+// curley brackets are used to connect two blocks to the if statement
+
+Q = 3
+W = 8
+X = 1
+if (Q < X && W < Q) 
+    console.log("greater than ");
+
+    
+  else if (X > Q && Q < W) {
+    console.log("Accurate Number");
+  }
+else ("the values are incorrect");
+console.log ("Aurovea");
+
+let E = 15
+if (E % 4 === 0)
+    console.log("Even") 
+    // if there is a reminder after dividing by 2 otherwise its an odd number
+else 
+    console.log("odd")
