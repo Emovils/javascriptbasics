@@ -1,0 +1,11 @@
+num1 = 7
+num2 = 8
+let result = num1 * num2
+console.log(`the Multiplication of ${num1} and ${num2} is ${result}`);
+console.log(`My Name is
+    Ovili Ekene`)
+// this is template literal
+//console.log("the addition of " + num1 + " and " + num2 + " is " + result);
+// this is concateation
+
+// template literal allows the creation of multi line string without the need of escape characters
