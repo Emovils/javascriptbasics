@@ -1,0 +1,37 @@
+// switch statement is a control flow statement that allows executiion of one block of code among mutiple alternatives
+// it allows variables to be tested fot equalities among a list of values 
+
+
+let day = "Monday" 
+    // the code below contains daily schedule for the week using switch statement
+    // Note: once you match the case it will print everything from the matched case downwards. so  in order to avoid it you use breaks inbetween
+switch(day){
+// in switch yo have to pass a variable which is day 
+      case 'Monday':
+          console.log("7am");
+          break;
+          // break means jump out of the block
+      case "Tuesday":
+      case "Wednsday":
+      case "Thursday":
+           console.log("9am");
+           break;
+// Another way to use break is to Merge the items together like the one Above
+     case "Friday":
+          console.log("7am");
+          break;
+     case "Saturday":
+          console.log("9am");
+          break;
+     case "Sunday":
+          console.log("6:30am");
+    case "Holiday":
+         console.log("study time");
+         break;
+        
+}
+console.log("lets have fun");
+
+
+         
+
