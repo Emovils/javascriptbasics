@@ -1,0 +1,24 @@
+//  loop means to do something repeatedly
+
+// DRY means do not repeat yourself
+// to i nitiate loop we need the initilization, condition, increment
+let r = 1;
+while (r <=5) {
+    console.log("Hi")
+    r++;
+}
+// if the value is above the command it will not print out i.e it will first check for the condition 
+console.log(r);
+ let i = 5;
+ while (i>=0) {
+    console.log("hi", i);
+    i--;
+    
+ }
+ // Do while loop checks for the condition after executing the command 
+ let f = 14;
+ do {
+    console.log("practice", f);
+    f++
+ } while (f<=5);
+
