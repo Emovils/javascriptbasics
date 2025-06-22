@@ -1,0 +1,16 @@
+// in for initilization, condition, increment are in 1 line with 2;
+let Q = 2;
+for (let Q = 2; Q <=5; Q++) {
+    console.log("Hi", Q);
+    
+}
+let z = 3;
+for (; z <=8;z++) {
+    console.log("Hi", z);
+    for (let j = 1; j <= 5; j++) {
+        console.log("hello", j);
+        
+    }
+    
+}
+// its more advicable to put the condition inside the loop
