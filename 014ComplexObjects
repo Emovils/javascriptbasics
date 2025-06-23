@@ -1,0 +1,23 @@
+let pixies = {
+    Name: 'Emi',
+    Tech:'JS',
+    laptop:{
+        cpu: 'i7',
+        ram: 4,
+        brand: 'Dell',
+        color1: 'silver',
+
+    }
+}
+console.log(pixies);
+
+console.log(pixies.laptop.brand);
+// to find the length of a string in a workflow you use length
+console.log(pixies.laptop.brand.length);
+
+// using ? when on your code when the exact match of a property is not found eliminates  error 
+console.log(pixies.laptop.color?.length);
+
+// to delete a file you use delete e.g delete pixie.laptop
+delete pixies.Tech
+console.log(pixies);
