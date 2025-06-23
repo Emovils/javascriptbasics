@@ -1,0 +1,21 @@
+
+let input = 'Name'
+
+let pixies = {
+    Name: 'Emi',
+    Tech:'JS',
+    Role:'softwareEngineer',
+    'Work exp': 4
+    
+}
+
+// to fetch a specific value of an object you use the . operator  eg (pixie.Tech) this will fect only JS
+// square brackets can also be used (alien[tech']) and its suitable for propertieswith 2 words
+// if  you have a property name with 2 words  e.g work exp you use single quotes work exp
+// if there is also an external request square bracket is the best
+console.log(pixies);
+
+console.log(pixies.Role);
+console.log(pixies[input]);
+console.log(pixies['Work exp']);
+console.log(pixies.Tech);
