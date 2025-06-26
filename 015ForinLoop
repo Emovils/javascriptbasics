@@ -1,0 +1,22 @@
+let pixies = {
+    Name: 'Emi',
+    Tech:'JS',
+    laptop:{
+        cpu: 'i7',
+        ram: 4,
+        brand: 'Dell',
+        color1: 'silver'
+    }
+}
+for (let key in pixies)
+    
+{
+    
+
+console.log(key,pixies.Tech);
+}
+for (let key in pixies)
+{
+console.log(pixies.laptop);
+}
+
