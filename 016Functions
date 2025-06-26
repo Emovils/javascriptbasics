@@ -1,0 +1,30 @@
+// function defination
+function greet()
+{
+   console.log('Hello World');
+}
+
+//function calling
+greet();
+console.log('Nice to have you here');
+
+// this code calls a bfunction which will return the value and we dont need to write console.log 
+// we use the string return, and we cant have mutiple return statements cause it will return only 1
+function greet()
+{
+   return "Hello world"
+}
+ 
+
+let str = greet();
+console.log(str);
+
+// retuning a value
+function  name()
+{
+    return `My Name is ${User}!!`
+}
+let User = 'Ovili';
+let string= name(User)
+console.log(string);
+
