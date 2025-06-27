@@ -20,4 +20,4 @@ console.log(pixies.laptop.color?.length);
 
 // to delete a file you use delete e.g delete pixie.laptop
 delete pixies.Tech
-console.log(pixies);
+console.log(pixies); 
