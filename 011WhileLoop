@@ -15,7 +15,7 @@ console.log(r);
     i--;
     
  }
- // Do while loop checks for the condition after executing the command 
+ // Do while loop checks for the condition after executing the command
  let f = 14;
  do {
     console.log("practice", f);
