@@ -1,0 +1,56 @@
+
+
+let add = function(num1,num2)  // function expression
+         {
+            return num1 + num2;
+         }
+
+let sum = add
+let result = sum(5,6)
+console.log(result);
+
+// there are two types of variables local & global 
+// local variable can be used inside the brace bracket or inside the function bracket but cant be used outside the function
+// global variable can be used inside and outside the function 
+
+let user = 'Emovils';
+function  name()
+{
+    console.log(User)
+    return `My Name is ${User}!!`
+    let num = 5;
+    console.log(num);
+}
+let User = 'Ovili';
+let string= name(User)
+console.log(string);
+
+function Ade(Num1,Num2,Num3=1) // parameters
+// default values are added when
+{
+    return Num1 + Num2 + Num3
+}
+let output = Ade(5,8); //Arguements
+console.log(output);
+
+
+// Arrow functions reduces the numbers of lines 
+
+let greet = () => {
+    console.log('Hello Friend');
+    return 1;
+}
+console.log(greet());
+
+let meet = (user) => {
+    console.log("Hello " + user);
+    return 1;
+}
+console.log(meet("Ovili"));
+
+// in arrow function if you have only one statement you dont need to return curley brackets and return
+// everything can be written in one line
+let added = (A,B) => A + B
+
+let Answer = added(6,9)
+console.log(result);
